@@ -2,16 +2,16 @@ package myArrList;
 
 public interface ImyArrlist {
 
-	public int getElement(int index); // получить элемент по индексу
+	public int getElement(int index); // ГЇГ®Г«ГіГ·ГЁГІГј ГЅГ«ГҐГ¬ГҐГ­ГІ ГЇГ® ГЁГ­Г¤ГҐГЄГ±Гі
 	public void toConsole();
 	public void add(int num);
 	public void add(int index, int num);
- 	public void add(int []arr); // добавляет массив улучшить условие, так как если были данные они затрутся
-	public void delElem(int index); // удалит выбранный елемент
-	public void sortElem(); // сортирует массив
-	public void clear(); // очистка массива
-	public int size(); // размер массива  только заполненного 
-	public boolean isEmpty();// пустой  boole false - если весь массив пустой
-	public int getIndexForElem(int numElem); // выдаст индекс элемента (принимает сам элемент)
+ 	public void add(int []arr); //  РЅРѕРІС‹Р№ СЂРµРїРѕ РєРѕРјРµРЅС‚
+	public void delElem(int index); // ГіГ¤Г Г«ГЁГІ ГўГ»ГЎГ°Г Г­Г­Г»Г© ГҐГ«ГҐГ¬ГҐГ­ГІ
+	public void sortElem(); // Г±Г®Г°ГІГЁГ°ГіГҐГІ Г¬Г Г±Г±ГЁГў
+	public void clear(); // Г®Г·ГЁГ±ГІГЄГ  Г¬Г Г±Г±ГЁГўГ 
+	public int size(); // Г°Г Г§Г¬ГҐГ° Г¬Г Г±Г±ГЁГўГ   ГІГ®Г«ГјГЄГ® Г§Г ГЇГ®Г«Г­ГҐГ­Г­Г®ГЈГ® 
+	public boolean isEmpty();// ГЇГіГ±ГІГ®Г©  boole false - ГҐГ±Г«ГЁ ГўГҐГ±Гј Г¬Г Г±Г±ГЁГў ГЇГіГ±ГІГ®Г©
+	public int getIndexForElem(int numElem); // ГўГ»Г¤Г Г±ГІ ГЁГ­Г¤ГҐГЄГ± ГЅГ«ГҐГ¬ГҐГ­ГІГ  (ГЇГ°ГЁГ­ГЁГ¬Г ГҐГІ Г±Г Г¬ ГЅГ«ГҐГ¬ГҐГ­ГІ)
 	 
 }
